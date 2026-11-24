@@ -14,7 +14,6 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
 lib64/
 parts/
 sdist/
@@ -221,3 +220,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# --- Deep learning artifacts ---
+# CIFAR-10 downloads (~170 MB) — torchvision re-downloads on demand
+data/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+# TensorBoard
+runs/
+wandb/
+
+# --- macOS ---
+.DS_Store
