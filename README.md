@@ -31,7 +31,7 @@ pip install -e ".[dev]"
 
 **Google Colab (training on GPU):**
 ```python
-!git clone https://github.com/<Fahed-Gammoh>/deep-learning-from-scratch.git
+!git clone https://github.com/Fahed-Gammoh/deep-learning-from-scratch.git
 %cd deep-learning-from-scratch
 !pip install -e . -q
 ```
